@@ -1,0 +1,106 @@
+nav {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 100%;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    text-align: center;
+    text-decoration-color: #fff;
+}
+
+body {
+    background: #e3e3e3;
+    padding: 50px 0;
+  }
+  .my-container {
+      position: relative;
+      background: rgba(122, 145, 184, .95);
+      overflow: hidden;
+  }
+  .my-container:before {
+      content: ' ';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      opacity: 0.6;
+      background-image: url(../img/stonesBanner.png);
+      background-repeat: no-repeat;
+      background-position: 50%;
+      -ms-background-size: cover;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover;
+  }
+  .my-container h1 {
+      padding: 50px;
+      text-align: center;
+      z-index: 2;
+      position: relative;
+      color: #fff;
+  } 
+  article {
+    background: rgba(255, 255, 255, .85);
+    padding: 50px;
+  }
+
+  table.centerT {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+  table th {
+    text-align: left;
+    padding: 5px, 30px, 5px, 15px;
+  }
+
+  table tr {
+      padding: 5px 30px 5px 15px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+    .flowRight {
+        float: right;
+	    margin-left: 10px;
+    }
+
+    .flowLeft {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .onRight {
+        margin-right: 20px;
+        text-align: right;
+    }
+
+    .onLeft {
+        margin-left: 20px;
+        text-align: left;
+    }
+
+    .vid-container {
+        background-color: rgba(255, 255, 255, .75);
+        margin: 40px auto 0 auto;
+        padding: 20px;
+        display: flex;
+    }
+
+    .vid1 {
+        flex: 1;
+    }
+
+    .vid2 {
+        flex: 1;
+    }
