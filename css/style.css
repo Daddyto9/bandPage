@@ -208,6 +208,7 @@ article {
 
 .vid-container {
     background-color: rgba(255, 255, 255, .75);
+    width: 100%;
     margin: 40px auto 0 auto;
     padding: 20px;
     display: flex;
